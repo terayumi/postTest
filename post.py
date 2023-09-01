@@ -17,5 +17,5 @@ def post(url,data):
 
 def gui():
     eel.init("gui")
-    eel.start("index.html",size=(400,400),port=8080)
+    eel.start("main.html",size=(400,400),port=8080)
 gui()

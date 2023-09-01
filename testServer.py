@@ -10,7 +10,7 @@ class handler(BaseHTTPRequestHandler):
         bodyLen=int(self.headers.get("content-length"))
         reqBody=str(self.rfile.read(bodyLen).decode("utf-8"))
         print('reqBody:'+reqBody)
-        res="<p>Test</p><br><p>Recieved data:"+reqBody
+        res="<p>Test response<br>Recieved data:<br>"+reqBody
         self.wfile.write(res.encode())
 
 IP="localhost"

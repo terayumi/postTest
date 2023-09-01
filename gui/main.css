@@ -1,0 +1,13 @@
+label{
+  display: block;
+}
+input{
+  height: 30px;
+  display: block;
+  width: 80%;
+}
+#submit_button{
+  height: 50px;
+  width: 80%;
+  margin: 5px;
+}

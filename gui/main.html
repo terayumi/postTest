@@ -2,11 +2,12 @@
 <html>
 
 <head>
-    <title>Hello, World!</title>
+    <title>POST　送信テスト</title>
 
     <!-- Include eel.js - note this file doesn't exist in the 'web' directory -->
     <script type="text/javascript" src="/eel.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -16,8 +17,14 @@
     <input type="text" id="id" name="id">
     <label for="pwd">Password:</label>
     <input type="password" id="pwd" name="pwd">
-    <button onclick="submit()">送信</button>
-    <div id="res"></div>
+    <button onclick="submit()" id="submit_button">送信</button>
+    <div>
+        <h4>結果</h4>
+        <div id="res">
+
+        </div>
+    
+    </div>
 </body>
 
 </html>
